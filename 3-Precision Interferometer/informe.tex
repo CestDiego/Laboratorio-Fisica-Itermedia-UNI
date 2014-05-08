@@ -130,9 +130,9 @@
   \begin{equation}
     \label{eq:4}
     \begin{aligned}
-      I_1& = \epsilon v <\va{E}_1^2>_T & \alpha &<\va{E}_1^2>_T \\
-      I_2& = \epsilon v <\va{E}_2^2>_T & \alpha &<\va{E}_2^2>_T \\
-      I_{12}& = \epsilon v 2\va{E}_1\dotproduct\va{E}_2 & \alpha &2\va{E}_1\dotproduct\va{E}_2\\
+      I_1& = \epsilon v <\va{E}_1^2>_T &\ \alpha & <\va{E}_1^2>_T \\
+      I_2& = \epsilon v <\va{E}_2^2>_T &\ \alpha & <\va{E}_2^2>_T \\
+      I_{12}& = \epsilon v 2\va{E}_1\dotproduct\va{E}_2 &\ \alpha &2\va{E}_1\dotproduct\va{E}_2\\
     \end{aligned}
   \end{equation}
   La última expresión $I_{12}$, se denomina término de interferencia.
@@ -149,13 +149,37 @@
 
   Tomando el promedio temporal, se efectúa el producto y se toma en consideración que
   $<\cos^2\omega t> = 1/2, <\sin^2\omega t> = 1/2, <\sin\omega t><\cos\omega t> = 0$
+  obteniéndose:
+  \begin{equation}
+    \label{eq:6}
+    <\va{E}_1\dotproduct\va{E}_2> = \frac{\va{E}_{01}\dotproduct\va{E}_{02}\cos(\va{k}_1\dotproduct\va{r} + \epsilon_1 + \va{k}_2\dotproduct\va{r} + \epsilon_2) }{2}
+  \end{equation}
   
- 
-% ----------------------------------------------------------------------------------------
-% section 2
-% ----------------------------------------------------------------------------------------
+  El término de interferencia, por lo tanto, es:
+  \begin{equation}
+    \label{eq:7}
+    \begin{aligned}
+      I_{12}\  \alpha\ &\va{E}_1\dotproduct\va{E}_2\cos(\delta)
+      \\
+      \delta =\ & \va{k}_1\dotproduct\va{r} - \va{k}_2\dotproduct\va{r} + \epsilon_1 + \epsilon_2\ \ \ \text{diferencia de fase}
+    \end{aligned}
+  \end{equation}
+  
+  Obsérvese que si $\va{E}_1\perp\va{E}_2 => I = I_1 + I_2$ donde tales estados ortogonales $\beta$ se combinarán para dar algún estado
+  de nombre arbitrario, pero la distribución de densidad de flujo quedará
+  inalterada
+  \\
+  Sea $\va{E}_1\parallel \va{E}_2$, en este caso, la irradiancia se calcula escalarmente así.
+  \begin{equation}
+    \label{eq:8}
+    \cos(\theta)
+  \end{equation}
+  
+  % ----------------------------------------------------------------------------------------
+  % section 2
+  % ----------------------------------------------------------------------------------------
 
-\section{experimental data}
+  \section{experimental data}
 \begin{tabular}{|l|l|}
   balance used & \#4\\
   magnesium from sample bottle & \#1
