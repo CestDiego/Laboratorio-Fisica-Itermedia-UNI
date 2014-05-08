@@ -23,5 +23,5 @@
 *.synctex.gz
 
 # ignore _region_.prv files
-_region_.prv/*
-auto/*
+*/_region_.prv/*
+*/auto/*
